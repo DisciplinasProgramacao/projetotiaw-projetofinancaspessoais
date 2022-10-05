@@ -24,7 +24,9 @@ Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em o
 
 ## Tarefas concluídas
 
-1 - 
+1 - Barra de navegação do usuário
+2 - Sessão principal da home page, aonde fica um texto chamativo e botões como " Sing up " e " Saiba mais "
+3 - Barra de separação, usada para separar uma sessão da outra. No caso, a nossa está com placeholders
 
 ## Instruções para uso
 Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
