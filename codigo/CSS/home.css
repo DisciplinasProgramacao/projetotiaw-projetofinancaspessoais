@@ -1,5 +1,7 @@
+/*Declaração de variaveis*/
 :root {
     --light_green: #4dbd90;
+    --dark_green: #3e5c50;
     --white: #ffffff;
     --dark_grey: #333;
     --black: #000;
@@ -16,12 +18,16 @@ body{
     width: 100%;
 }
 
+/*Navbar*/
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     padding: 0 342px;
+    position: fixed;
+    background: var(--white);
+    width: 100%;
 
 }
 
@@ -39,7 +45,15 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: var(--black);
+    font-weight: 300;
 }
+
+nav ul li a:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+/*Hero*/
 
 .hero{
     display: flex;
@@ -47,6 +61,8 @@ nav ul li a{
     height: 430px;
     justify-content: center;
     align-items: center;
+    padding-top: 70px;
+    
 }
 
 .hero_info{
@@ -79,12 +95,28 @@ nav ul li a{
 
 #hero_signup_btn{
     background-color: black;
-    color: white;
+    color: var(--white);
+    cursor: pointer;
+}
+
+#hero_signup_btn:hover{
+    background-color: transparent;
+    color: var(--black);
+    transition: 0.3s;
+
 }
 
 
 #hero_saiba_mais_btn{
     background-color: transparent;
+    cursor: pointer;
+    
+}
+
+#hero_saiba_mais_btn:hover{
+    background-color: var(--black);
+    color: var(--white);
+    transition: 0.3s;
 }
 .hero img{
     width: 450px;
@@ -92,4 +124,73 @@ nav ul li a{
 
     
 }
+
+/*Barra de separação*/
+.separator_bar{
+    background-color: var(--dark_green);
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.separator_bar h2{
+    color: rgba(255, 255, 255, 0.31);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.separator_bar{
+    display: flex;
+}
+
+.separator_bar img{
+    width: 8%;
+    margin: 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsivo*/
+
+@media screen and (max-width: 1024px){
+
+    /*Nav*/
+    nav{
+        justify-content: center;
+        padding: 0;
+    }
+    nav ul{
+        display: none;
+    }
+
+    /*Hero*/
+    .hero_info h1{
+        font-size: 30px;
+    
+    
+    }
+
+    .hero_info p{
+        font-size: 18px;
+    
+    }
+
+    /*Separation bar*/
+    .separator_bar h2{
+        font-size: 18px;
+    }
+}
+
+
 
