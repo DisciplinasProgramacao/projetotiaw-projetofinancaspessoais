@@ -1,0 +1,95 @@
+:root {
+    --light_green: #4dbd90;
+    --white: #ffffff;
+    --dark_grey: #333;
+    --black: #000;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 342px;
+
+}
+
+nav img{
+    width: 200px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: var(--dark_grey);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.hero{
+    display: flex;
+    background-color: var(--light_green);
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_info{
+    margin-right: 30px;
+}
+.hero_info h1{
+    color: var(--white);
+    font-size: 38px;
+    font-family: Arial !important; 
+    margin-bottom: 20px;
+
+
+}
+
+.hero_info p{
+    color: var(--white);
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 26px;
+
+}
+
+.hero_btn{
+    width: auto;
+    height: auto;
+    padding: 13px 23px;
+    font-size: 16px;
+    
+}
+
+#hero_signup_btn{
+    background-color: black;
+    color: white;
+}
+
+
+#hero_saiba_mais_btn{
+    background-color: transparent;
+}
+.hero img{
+    width: 450px;
+
+
+    
+}
+
