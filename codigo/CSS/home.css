@@ -2,16 +2,20 @@
 :root {
     --light_green: #4dbd90;
     --dark_green: #3e5c50;
+    --light_grey: #dde7ed;
     --white: #ffffff;
     --dark_grey: #333;
     --black: #000;
+    --light_blue: #3898ec
   }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     font-family: 'Roboto', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 body{
@@ -40,16 +44,32 @@ nav ul{
     display: flex;
     gap: 40px;
     color: var(--dark_grey);
+    height: 100%;
+    align-items: center;
+}
+
+nav ul li{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+}
+
+nav ul li:hover{
+    border-top: 5px solid var(--light_green);
+    transition: 0.3s;
 }
 
 nav ul li a{
     text-decoration: none;
     color: var(--black);
     font-weight: 300;
+
 }
 
 nav ul li a:hover{
-    color: black;
+    color: var(--light_green);
     transition: 0.3s;
 }
 
@@ -151,13 +171,136 @@ nav ul li a:hover{
 }
 
 
+/*Features*/
+
+
+.features{
+    width: 80%;
+
+    margin: auto;
+}
+
+
+.features h1{
+    font-size: 30px;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+#subtitulo_feature{
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: 300;
+}
+.row_container{
+    display: flex;
+
+    height: 250px;
+    align-items: center;
+    padding: 70px;
+}
+
+.feature_img_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+    text-align: right;
+    height: auto;
+}
+
+.feature_img_container img{
+    width: 400px;
+}
+
+.feature_text_container{
+   
+    width: 50%;
+    padding-left: 40px;
+}
+
+.feature_text_container img{
+    width: 36px;
+}
+
+.feature_text_container h3{
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.feature_text_container p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.second_feature_text{
+    padding-left: 100px;
+}
+
+.cards_container{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.card{
+    width: 400px;
+}
 
 
 
+/*Form_section*/
 
+.form_section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--light_grey);
+}
 
+.form_section h1{
+    text-align:center;
 
+}
 
+#report_form{
+    display: flex;
+    flex-direction: column;
+}
+
+#repot_form label{
+    font-weight: 600;
+    
+}
+
+#report_form input{
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 600px;
+    border: 0;
+    outline: 0;
+    padding: 8px;
+}
+
+#report_form input[name=Descricao]{
+    margin-bottom: 0;
+}
+
+#report_form input[type=submit]{
+    width: 100px;
+    background-color: var(--light_blue);
+    cursor: pointer;
+}
+
+#report_form span{
+    text-align: center;
+    margin-top: 30px;
+}
 
 
 

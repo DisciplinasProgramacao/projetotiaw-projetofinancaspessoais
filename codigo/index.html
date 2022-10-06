@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@300;500;200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/home.css">
     <title>Finclub</title>
 </head>
@@ -15,7 +15,7 @@
         <a href="#"><img src="IMG/logo.png" alt=""></a>
 
         <ul>
-            <li><a href="#">Features</a></li>
+            <li><a href="#features">Features</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Login</a></li>
             <li><a href="#">Sign Up</a></li>
@@ -41,6 +41,86 @@
             <img src="IMG/Marcas Logos/wired.svg" alt="">
             <img src="IMG/Marcas Logos/zd_net.svg" alt="">
         </div>
+    </section>
+
+    <section class="features" id="features">
+
+        <h1>Use em qualquer device!</h1>
+        <h3 id="subtitulo_feature">Tudo que voce precisa para que seus sonhos estejam mais pertos!</h3>
+
+        <div class="feature_info_container">
+
+            <div class="row_container">
+                <div class="feature_img_container">
+                    <img src="IMG/features/web.png" alt="">
+                </div>
+                <div class="feature_text_container">
+                    <img src="IMG/features/web_icon.svg" alt="">
+                    <h3>Aplicacao na web</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse varius enim in eros elementum <br>tristique. Consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+            <div class="row_container">
+                <div class="feature_text_container second_feature_text">
+                    <img src="IMG/features/cloud_icon.svg" alt="">
+                    <h3>Aplicacao totalmente responsiva</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse varius enim in eros elementum <br>tristique. Consectetur adipiscing elit.</p>
+                </div>
+                <div class="feature_img_container">
+                    <img src="IMG/features/phone_feature.png" alt="">
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+        <div class="cards_container">
+            <div class="feature_text_container card">
+                <img src="IMG/features/cards/control_icons.svg" alt="">
+                <h3>Dashboard</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse varius enim in<br> eros elementum tristique. </p>
+            </div>
+            <div class="feature_text_container card">
+                <img src="IMG/features/cards/fluxo_icon.svg" alt="">
+                <h3>Recomendacoes Financeiras</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse varius enim in<br> eros elementum tristique. </p>
+            </div>
+            <div class="feature_text_container card">
+                <img src="IMG/features/cards/download_icon.svg" alt="">
+                <h3>Download do seu extrato</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse varius enim in<br> eros elementum tristique. </p>
+            </div>
+            <div class="feature_text_container card">
+                <img src="IMG/features/cards/graphic_icon.svg" alt="">
+                <h3>Graficos sobre suas economias</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse varius enim in<br> eros elementum tristique. </p>
+            </div>
+        </div>
+        
+        
+
+          
+    </section>
+
+
+    <section class="form_section">
+
+        <h1>Reporte um bug</h1>
+
+
+        <form id="report_form"action="/">
+            <label for="nome"><b>Nome:</b></label>
+            <input type="text" id="User"  name="nome" />
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email"  name="email" />
+            <label for="descricao" ><b>Descricao do bug:</b></label>
+            <input type="text"  id="Descricao" name="Descricao" />
+
+            <input type="submit" value="Submit">
+            <span>Obrigado por nos ajudar a evoluir</span>
+        </form>
     </section>
 
    
