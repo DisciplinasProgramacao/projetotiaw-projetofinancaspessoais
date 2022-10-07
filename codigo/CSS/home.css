@@ -302,6 +302,48 @@ nav ul li a:hover{
     margin-top: 30px;
 }
 
+/*Equipe*/
+
+.equipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+ 
+}
+
+.equipe h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+#img_equipe{
+    width: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.equipe p{
+    text-align: center;
+    font-size: 25px;
+}
+.equipe h3{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#cargo{
+    font-size: 16px;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+    margin-bottom: 40px;
+}
+
 
 
 /*Responsivo*/
