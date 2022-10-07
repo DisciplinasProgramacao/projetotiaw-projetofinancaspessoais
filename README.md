@@ -24,12 +24,12 @@ Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em o
 
 ## Tarefas concluídas
 
-1 - Barra de navegação do usuário
-2 - Sessão principal da home page, onde fica um texto chamativo e botões como " Sign up " e " Saiba mais "
-3 - Barra de separação, usada para separar uma sessão da outra. No caso, a nossa está com placeholders já que o conteúdo ainda não está 100% decidido.
-4 - Concluida o resto da home page, incluindo o formulario de "reporte um bug", a sessão equipes, outra barra de separação e o footer.
-5 - Concluida a pagina de login e cadastro.
-6 - Concluida a lógica de cadastro e login utilizando local storage com tratamento de erros. (Funcional)
+1 - Barra de navegação do usuário <br>
+2 - Sessão principal da home page, onde fica um texto chamativo e botões como " Sign up " e " Saiba mais " <br>
+3 - Barra de separação, usada para separar uma sessão da outra. No caso, a nossa está com placeholders já que o conteúdo ainda não está 100% decidido. <br>
+4 - Concluida o resto da home page, incluindo o formulario de "reporte um bug", a sessão equipes, outra barra de separação e o footer. <br>
+5 - Concluida a pagina de login e cadastro. <br>
+6 - Concluida a lógica de cadastro e login utilizando local storage com tratamento de erros. (Funcional)<br>
 
 
 ## Instruções para uso
