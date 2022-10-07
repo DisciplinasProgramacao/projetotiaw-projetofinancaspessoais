@@ -19,7 +19,7 @@ Portanto, a plataforma do FinClub será responsável por acompanhar e auxiliar o
 * Lucas
 
 ## Quadro de tarefas
-Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.
+https://trello.com/invite/b/DTo4f7N4/9091c29bbdcc03d3a0744bb964340b2f/
 
 
 ## Tarefas concluídas
@@ -33,4 +33,4 @@ Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em o
 
 
 ## Instruções para uso
-Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
+Entre no link: https://finclub-vercel.vercel.app/
