@@ -89,11 +89,31 @@ body{
 
 .login_container span{
     color: white;
-    margin-top: 5%;
+    margin-top: 1%;
+    margin-bottom: 4%;
 }
 
 .login_container a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.69);
+}
+
+#alerta{
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    display: none;
+    background-color: #F8D7DA;
+    border-radius: 15px;
+    color: #6A1A21;
+    height: 80px;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ativo{
+    display: flex !important;
 }
 

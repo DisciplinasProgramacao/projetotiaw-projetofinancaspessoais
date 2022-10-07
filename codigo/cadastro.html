@@ -8,24 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="JS/cadastro.js"></script>
+    <script src="JS/login.js"></script>
     <title>Login</title>
 </head>
 <body>
     <div class="login_container">
         <img src="IMG/Login_Page/digital.svg" alt="">
 
-        <form id="form_login" action="/">
+        <form id="form_login" >
             <input type="text"  placeholder="Seu nome" name="usuario" class="input_form" id="usuario">
-            <input type="email" placeholder="Email" name="senha" class="input_form id="senha">
-            <input type="password" placeholder="Senha" name="senha" class="input_form id="senha">
-            <input type="submit" class="sign_up_btn" value="Login">
+            <input type="email" placeholder="Email" name="email" class="input_form" id="email">
+            <input type="password" placeholder="Senha" name="senha" class="input_form" id="senha">
+            
+            
 
             
 
         </form>
+        <button name="submit" type="submit" class="sign_up_btn" onclick="Cadastrar()">Sign Up</button>
+            
         <p>Criando uma conta sua vida financeira fica mais fácil</p>
         <hr size="1" width="100%">
         <span>Já tem uma conta? <a href="login.html">Log in.</a></span>
+    </div>
+
+    <div class="alert alert-danger"  id="alerta" role="alert">
+        Credenciais Invalidas!
     </div>
     
 </body>
