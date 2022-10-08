@@ -6,7 +6,7 @@
     --white: #ffffff;
     --dark_grey: #333;
     --black: #000;
-    --light_blue: #3898ec
+    --light_blue: #3898ec;
   }
 *{
     margin: 0;
@@ -348,13 +348,12 @@ nav ul li a:hover{
 
 /*Barra de separação*/
 .separator_2{
-    background-color: var(--dark_green);
+    background-color: #a1bfd4;
     height: 145px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 30px;
 }
 
 .separator_2 h2{
@@ -371,6 +370,7 @@ nav ul li a:hover{
     width: 8%;
     margin: 0 30px;
 }
+
 
 
 /*Footer*/
