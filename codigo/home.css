@@ -354,6 +354,7 @@ nav ul li a:hover{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-top: 30px;
 }
 
 .separator_2 h2{
@@ -385,37 +386,6 @@ footer{
 }
 
 
-
-/*Responsivo*/
-
-@media screen and (max-width: 1024px){
-
-    /*Nav*/
-    nav{
-        justify-content: center;
-        padding: 0;
-    }
-    nav ul{
-        display: none;
-    }
-
-    /*Hero*/
-    .hero_info h1{
-        font-size: 30px;
-    
-    
-    }
-
-    .hero_info p{
-        font-size: 18px;
-    
-    }
-
-    /*Separation bar*/
-    .separator_bar h2{
-        font-size: 18px;
-    }
-}
 
 
 
