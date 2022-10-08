@@ -11,6 +11,8 @@ function Logar(){
 
     if(info.senha == senha_login && info.email == email_login){
         alert("Funcionou");
+        document.getElementById('usuario').style.borderColor = "rgba(255, 255, 255, 0.3)"
+        document.getElementById('senha').style.borderColor = "rgba(255, 255, 255, 0.3)"
       
     }else{
         document.getElementById('usuario').style.borderColor = "red";
