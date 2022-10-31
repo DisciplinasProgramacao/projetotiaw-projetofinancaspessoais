@@ -30,6 +30,7 @@ https://trello.com/invite/b/DTo4f7N4/9091c29bbdcc03d3a0744bb964340b2f/
 4 - Concluida o resto da home page, incluindo o formulario de "reporte um bug", a sessão equipes, outra barra de separação e o footer. <br>
 5 - Concluida a pagina de login e cadastro. <br>
 6 - Concluida a lógica de cadastro e login utilizando local storage com tratamento de erros. (Funcional)<br>
+7 - Concluida a implementação do cadastro adicional e a implementação do modelo do dashboard.<br>
 
 
 ## Instruções para uso
