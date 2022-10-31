@@ -15,12 +15,18 @@
     <nav>
         <a href="#"><img src="IMG/logo.png" alt=""></a>
 
-        <ul>
+        <ul class="nav-menu">
             <li><a href="#features">Features</a></li>
             <li><a href="#equipe">Sobre nos</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="cadastro.html">Cadastrar</a></li>
         </ul>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </nav>
 
     <section class="hero">
@@ -80,12 +86,12 @@
 
 
         <div class="cards_container">
-            <div class="feature_text_container card_features">
+            <div  id="first_card_feature" class="feature_text_container card_features">
                 <img src="IMG/features/cards/control_icons.svg" alt="">
                 <h3>Painel</h3>
                 <p>Notícias, mercado, oportunidades, <br> investimentos e muito mais.<br> Confira nosso painel!. </p>
             </div>
-            <div class="feature_text_container card_features">
+            <div id="second_card_feature"class="feature_text_container card_features">
                 <img src="IMG/features/cards/fluxo_icon.svg" alt="">
                 <h3>Recomendações Financeiras</h3>
                 <p>Confira todas as Ações sugeridas <br> pelos nossos especialistas.<br>  </p>
@@ -202,7 +208,7 @@
         <span>Copyright 2022 FinClub. Todos os direitos reservados.</span>
     </footer>
 
-   
+    <script src="JS/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
