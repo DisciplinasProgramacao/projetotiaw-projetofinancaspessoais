@@ -19,6 +19,8 @@ function Cadastrar(){
         document.getElementById('alerta').innerText = "Sua senha deve ter pelo menos 8 caracteres!"
     }
 
+    window.location.href = "login.html"
+
     
 
     
