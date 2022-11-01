@@ -7,9 +7,7 @@ function Logar(){
     if(email_login == "" || senha_login == ""){
         document.getElementById('alerta').className = "ativo";
         document.getElementById('alerta').innerText = "Você deixou algo em branco!"
-    }
-
-    if(info.senha == senha_login && info.email == email_login){
+    }else if(info.senha == senha_login && info.email == email_login){
         document.getElementById('usuario').style.borderColor = "rgba(255, 255, 255, 0.3)"
         document.getElementById('senha').style.borderColor = "rgba(255, 255, 255, 0.3)"
         window.location.href = "Dashboard/startbootstrap-sb-admin-2-gh-pages/dashboard.html"
