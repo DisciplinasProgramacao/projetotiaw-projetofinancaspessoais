@@ -3,19 +3,20 @@ function Cadastrar(){
     var nome = document.getElementById('usuario').value;
     var email = document.getElementById('email').value;
     var senha = document.getElementById('senha').value;
+    var confirmaSenha = document.getElementById('confirmaSenha').value;
 
   
     if(senha.length  < 8 && (nome == "" || email == "" || senha == "")){
-        document.getElementById('alerta').className = "ativo";
-        document.getElementById('alerta').innerText = "Sua senha deve ter pelo menos 8 caracteres! E voce deixou algo em branco!"
+        alert("Sua senha deve ter pelo menos 8 caracteres! E voce deixou algo em branco!")
     }else if(nome == "" || email == "" || senha == ""){
-        document.getElementById('alerta').className = "ativo";
-        document.getElementById('alerta').innerText = "Você deixou algo em branco!"
+        alert("Você deixou algo em branco!")
     }else if(senha.length < 8){
-        document.getElementById('alerta').className = "ativo";
-        document.getElementById('alerta').innerText = "Sua senha deve ter pelo menos 8 caracteres!"
+        alert("Sua senha deve ter pelo menos 8 caracteres!")
 
-    }else{
+    }else if(senha != confirmaSenha){
+        alert("As senhas nao condizem!")
+    }
+    else{
         
         const userObject = {
             'usuario':nome, 
