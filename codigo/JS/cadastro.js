@@ -1,25 +1,44 @@
+const usuario = [];
 function Cadastrar(){
     var nome = document.getElementById('usuario').value;
     var email = document.getElementById('email').value;
     var senha = document.getElementById('senha').value;
-    var submit = document.getElementsByName('submit');
-    const usuario = {'usuario':nome, 'email':email, 'senha':senha};
-    localStorage.setItem('info', JSON.stringify(usuario));
+    // var endereco = document.getElementById('endereco').value;
+    // var idade = document.getElementById('idade').value;
+    // var quest = document.getElementById('quest').value;
+    // var submit = document.getElementsByName('submit');
+    
+    
+    
 
 
     if(senha.length  < 8 && (nome == "" || email == "" || senha == "")){
         document.getElementById('alerta').className = "ativo";
-        document.getElementById('alerta').innerText = "Você deixou algo em branco!"
-
+        document.getElementById('alerta').innerText = "Sua senha deve ter pelo menos 8 caracteres! E voce deixou algo em branco!"
+        
     }else if(nome == "" || email == "" || senha == ""){
         document.getElementById('alerta').className = "ativo";
-        document.getElementById('alerta').innerText = "Sua senha deve ter pelo menos 8 caracteres! E voce deixou algo em branco!"
+        document.getElementById('alerta').innerText = "Você deixou algo em branco!"
     }else if(senha.length < 8){
         document.getElementById('alerta').className = "ativo";
         document.getElementById('alerta').innerText = "Sua senha deve ter pelo menos 8 caracteres!"
+    }else{
+        
+        const userObject = {
+            'usuario':nome, 
+            'email':email, 
+            'senha':senha
+        }
+        usuario.push(userObject);
+        localStorage.setItem('usuario', JSON.stringify(usuario));
+        console.log(usuario);
+        window.location.href = "Cadastro2.html";
+        
+        
+        
     }
 
-    window.location.href = "login.html"
+    
 
     
 
