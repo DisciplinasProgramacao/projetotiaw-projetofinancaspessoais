@@ -6,6 +6,7 @@ function Logar(){
 
 
 
+
     for(let i = 0; i < info.length; i++){
         if(email_login == "" || senha_login == ""){
             document.getElementById('alerta').className = "ativo";
@@ -24,6 +25,7 @@ function Logar(){
             document.getElementById('senha').style.transition = "0.3s";
             document.getElementById('alerta').className = "ativo";
         }
+
     }
    
   

@@ -34,4 +34,4 @@ https://trello.com/invite/b/DTo4f7N4/9091c29bbdcc03d3a0744bb964340b2f/
 
 
 ## Instruções para uso
-Entre no link: https://finclub-vercel.vercel.app/
+Abra o index.html, que esta localizado na pasta codigo.
