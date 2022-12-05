@@ -399,8 +399,8 @@ footer{
     align-items: center;
     width: 100%;
     height: 100px;
-    background-color: #1c1d1f;
-    color: white;
+    background-color: rgb(49, 105, 216);
+    color: rgb(243, 47, 47);
 }
 
 
