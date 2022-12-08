@@ -324,7 +324,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span id="nomeProfile"class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
@@ -361,9 +361,9 @@
                     <div class="container">
                         <img src="img/imagem_perfil.jpg">
                         <h3>Nome:</h3>
-                        <input type="text" value="Nome do usuario aqui" disabled>
+                        <input id="nomeUsuario" type="text" value="Nome do usuario aqui" disabled>
                         <h3>Email:</h3>
-                        <input type="text" value="Email do usuario aqui" disabled>
+                        <input id="inputEmail" type="text" value="Email do usuario aqui" disabled>
                         <h3>Perfil do investidor</h3>
                         <input type="radio" name="" id="" checked disabled><span>Iniciante</span><br>
                         <input type="radio" name="" id="" disabled><span>Veterano</span><br>
@@ -427,6 +427,8 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
+    <script src="js/dashboard-main.js"></script>
+    <script src="js/data-main.js"></script>
 
 </body>
 
