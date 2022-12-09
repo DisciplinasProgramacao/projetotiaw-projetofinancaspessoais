@@ -2,16 +2,16 @@ const usuarioComp = [];
 function cadastrarComp(){
      var endereco = document.getElementById('endereco').value;
      var idade = document.getElementById('idade').value;
-     var quest = document.getElementById('quest').value;
+     var telefone = document.getElementById('telefone').value;
     
 
-    if(endereco == "" || idade == "" || quest == ""){
+    if(endereco == "" || idade == "" || telefone == ""){
         alert("Você deixou algo em branco!")
     }else{
         const userObjectComp = {
             'endereco':endereco, 
             'idade':idade, 
-            'quest':quest
+            'telefone':telefone
         }
         usuarioComp.push(userObjectComp);
         localStorage.setItem('usuarioComp', JSON.stringify(usuarioComp));

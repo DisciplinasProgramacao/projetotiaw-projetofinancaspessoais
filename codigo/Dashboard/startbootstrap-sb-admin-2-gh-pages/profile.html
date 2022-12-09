@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/profile.css" rel="stylesheet">
 
 </head>
 
@@ -359,18 +360,21 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                     <div class="container">
-                        <img src="img/imagem_perfil.jpg">
-                        <h3>Nome:</h3>
-                        <input id="nomeUsuario" type="text" value="Nome do usuario aqui" disabled>
-                        <h3>Email:</h3>
-                        <input id="inputEmail" type="text" value="Email do usuario aqui" disabled>
-                        <h3>Idade:</h3>
-                        <input id="inputIdade" type="text" value="0" disabled>
-                        <h3>Endereco:</h3>
-                       
-                        <input id="endereco" type="text" value="Email do usuario aqui" disabled>
+                        <div class="row">
+                            <img id="image_profile" class="text_profile" src="img/imagem_perfil.jpg">
+                            <h3 class="text_profile">Nome:</h3>
+                            <input id="nomeUsuario" class="text_profile"  type="text" value="Nome do usuario aqui" disabled>
+                            <h3 class="text_profile">Email:</h3>
+                            <input id="inputEmail" class="text_profile"  type="text" value="Email do usuario aqui" disabled>
+                            <h3 class="text_profile">Idade:</h3>
+                            <input id="inputIdade" class="text_profile"  type="text" value="0" disabled>
+                            <h3 class="text_profile">Telefone:</h3>
+                            <input id="inputTelefone" class="text_profile"  type="text" value="0" disabled>
+                            <h3 class="text_profile">Endereco:</h3>
                         
-                        <button>Editar</button>
+                            <input id="endereco" type="text" class="text_profile"  value="Email do usuario aqui" disabled>
+                           
+                        </div>
                     </div>
                     
 
