@@ -1,0 +1,10 @@
+#image_profile{
+    margin: 0 auto;
+}
+
+.text_profile{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
