@@ -18,8 +18,6 @@ mostraTransacoes.innerText = JSON.parse(localStorage.getItem('transacoes'));
 
 
 
-
-
 var ctx = document.getElementById("myPieChart");
     var myPieChart = new Chart(ctx, {
     type: 'doughnut',

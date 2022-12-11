@@ -17,8 +17,8 @@ function cadastrarComp(){
 
 
         usuarioComp.push(userObjectComp);
-        localStorage.setItem('entradas', 0);
-        localStorage.setItem('Saida', 0);
+        localStorage.setItem('entradas', 0.001);
+        localStorage.setItem('Saida', 0.001);
         localStorage.setItem('usuarioComp', JSON.stringify(usuarioComp));
         localStorage.setItem('total',0);
         localStorage.setItem('transacoes', 0);

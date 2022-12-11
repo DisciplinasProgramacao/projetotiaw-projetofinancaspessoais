@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(IMG/Login_Page/background.jpg);
+    background-image: url('IMG copy/Login_Page/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -43,6 +43,7 @@ body{
     align-items: center;
     width: 90%;
 }
+
 
 .input_form{
     background-color: transparent;

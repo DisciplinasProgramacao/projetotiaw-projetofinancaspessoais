@@ -16,6 +16,6 @@ fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL')
 				
 				
 				
-				console.log(data.BTCBRL.code)
+				
 
 		})

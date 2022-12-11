@@ -4,6 +4,7 @@ let inputEndereco = document.getElementById('endereco');
 let inputIdade = document.getElementById('inputIdade');
 let inputTelefone = document.getElementById('inputTelefone');
 let info = JSON.parse(localStorage.getItem("usuario"));
+let nomeProfiles = document.getElementById('nomeProfiles');
 let infoComp = JSON.parse(localStorage.getItem("usuarioComp"))
 let token = localStorage.getItem("token");
 let pos;
@@ -18,6 +19,7 @@ inputEmail.value = info[pos].email;
 inputEndereco.value = infoComp[pos].endereco;
 inputIdade.value = infoComp[pos].idade;
 inputTelefone.value = infoComp[pos].telefone;
+nomeProfiles.innerText = info[pos].usuario;
 
 
 
