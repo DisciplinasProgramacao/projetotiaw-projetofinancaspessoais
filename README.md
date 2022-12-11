@@ -31,6 +31,9 @@ https://trello.com/invite/b/DTo4f7N4/9091c29bbdcc03d3a0744bb964340b2f/
 5 - Concluida a pagina de login e cadastro. <br>
 6 - Concluida a lógica de cadastro e login utilizando local storage com tratamento de erros. (Funcional)<br>
 7 - Concluida a implementação do cadastro adicional e a implementação do modelo do dashboard.<br>
+8 - Concluida a implementação do dashboard com a identidade visual do Finclub<br>
+9 - Concluida a lógica de entrada e saída de entradas e saídas.
+10 - Gráfico funcionando de acordo com os valores de entrada e saída do usuario.
 
 
 ## Instruções para uso
