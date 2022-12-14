@@ -5,6 +5,18 @@ O FinClub é um projeto com a finalidade de ajudar ao usuário com o controle do
 
 Portanto, a plataforma do FinClub será responsável por acompanhar e auxiliar o usuário em sua vida financeira!
 
+# Requisitos cumpridos: 92/100
+  - cadastro passa um usuário por cima do anterior
+  
+## Comentários da correção
+
+O ritmo de desenvolvimento foi muito irregular, com avanços instantâneos e depois muito tempo sem progresso ou retorno.  Lembrem-se: o cliente não quer surpresas de última hora: quer ver o produto evoluindo até o prazo de entrega. 
+
+Continua o erro de cadastrar somente um usuário. De resto, parabéns pelo trabalho: excelente ideia da API e bom uso da dashboard.
+
+A nota é individual baseada na inspeção dos commits e do kanban.
+
+
 ## Alunos integrantes da equipe
 
 * João Arthur Rocha Leo Pereira
