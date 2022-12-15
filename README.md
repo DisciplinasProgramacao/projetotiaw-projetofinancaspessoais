@@ -7,6 +7,11 @@ Portanto, a plataforma do FinClub será responsável por acompanhar e auxiliar o
 
 # Requisitos cumpridos: 92/100
   - cadastro passa um usuário por cima do anterior
+
+# Nota de apresentação 95/100
+
+**Importante:** A nota-base do grupo é calculada a partir das porcentagens acima. A nota individual leva em consideração ainda a nota de acompanhamento nas reuniões de grupos, a participação efetiva nas tarefas e commits e os descontos por falta nas reuniões. 
+
   
 ## Comentários da correção
 
